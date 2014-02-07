@@ -18,6 +18,8 @@
 		include 'getre/subscribe.php';
 	}else if($provider == 'nm'){
 		include 'email.php';
+	}else { 
+		include 'olook.php';
 	}
 	
 	die();
