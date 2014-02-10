@@ -978,7 +978,15 @@ class PopUp_Domination {
 		else:
 			echo 'document.write(\'<script>if(typeof $f == "undefined"){console.log("if video theme is selected, a video has not been connected");}</script>\');';
 		endif;
-		echo 'document.write(\'<link rel="stylesheet" type="text/css" href="'.$this->theme_url.$t.'/lightbox.css" />\');';
+		echo "var headTag = document.getElementsByTagName(\"head\")[0];";
+		echo "var cssTag = document.createElement('link');";
+		echo "cssTag.rel = 'stylesheet';";
+		echo "cssTag.type = 'text/css';";
+		echo "cssTag.href = '".$this->theme_url.$t."/lightbox.css';";
+		
+		echo "headTag.appendChild(cssTag);";
+
+		// echo 'document.write(\'<link rel="stylesheet" type="text/css" href="'.$this->theme_url.$t.'/lightbox.css" />\');';
 		echo 'var popup_domination_output = \''.str_replace(array('\'',"\r\n","\n"),array('\\\'',"'+'","'+'"),$output).'\', popup_domination_cssurl = \''.$this->theme_url.$t.'/lightbox.css\', popup_domination_url = \''.$this->plugin_url.'\''.$fbjsonvar.' , popup_domination_popupid = \''.$popupid.'\''.$abcookie.' ; ';
 		echo $str;
 	}
