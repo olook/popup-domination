@@ -1,0 +1,8 @@
+Template Name: Monthly Template #1 
+Colors: Black[black:#393939]
+Preview Size: 649x458
+Preview Ext: jpg
+Fields: Title[id:title,max:50]|Short Paragraph[id:short_paragraph,type:textarea,max:177]|Footer Security Note[id:footer_note,max:76]|Name Default Value[id:name_default,default_val:Your First Name...]|Email Default Value[id:email_default,default_val:Your Email Address...]|Submit Button[id:submit_button,max:26,default_val:FREE INSTANT ACCESS]
+List Items: 4
+Button Colors: Red[red]|Green[green]|Orange[orange]|Blue[blue]|Purple[purple]
+Center: Y

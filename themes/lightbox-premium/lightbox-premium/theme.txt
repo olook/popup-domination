@@ -1,0 +1,7 @@
+Template Name: Premium Template # 1
+Colors: Blue[blue:#005ba2] | Green[green:#10a618] | Orange[orange:#d07400] | Red[red:#a30000]
+Preview Size: 609x265
+Preview Ext: jpg
+Fields: Title[id:title,max:40]|Form Header[id:form_header,max:75]|Short Paragraph[id:short_paragraph,type:textarea,max:250]|Footer Security Note[id:footer_note,max:60]|Name Default Value[id:name_default,default_val:Your First Name...]|Email Default Value[id:email_default,default_val:Your Email Address...]|Image[id:right_image,type:image,max_w:300,max_h:305]|Submit Button[id:submit_button,max:26,default_val:FREE INSTANT ACCESS]
+List Items: 0
+Center: N

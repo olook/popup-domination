@@ -1,0 +1,8 @@
+Template Name: Lightbox Redirect
+Colors: Blue[blue:#005ba2] | Grape[grape:#930056] | Bright Green[bright-green:#10a618] | Orange[orange:#d07400] | Bright Red[bright-red:#a30000] | Dark Blue[dark-blue:#0082e8] | Dark Green[dark-green:#00e80c] | Dark Orange[dark-orange:#c85400] | Dark Red[dark-red:#e00000]
+Preview Size: 649x458
+Preview Ext: jpg
+Fields: Title[id:title,max:50,default_val:This is the title]|Header[id:header,max:50,default_val:This is the header]|Sub Heading[id:sub_header,max:50,default_val:This is the sub header]|Form Header[id:form_header,max:50,default_val:This is the form header]|Footer Security Note[id:footer_note,max:60,default_val:This is a footer note]|Image[id:right_image,type:image,max_w:340,max_h:500]|Submit Button[id:submit_button,max:15,default_val:FIND OUT HOW!]|Exit Button[id:exit_button,max:12,default_val:ASK ME LATER]
+List Items: 3
+Button Colors: Red[red]|Green[green]|Orange[orange]|Blue[blue]|Turquoise[turquoise]|Dark Red[dark-red]|Dark Green[dark-green]|Dark Orange[dark-orange]|Dark Blue[dark-blue]
+Center: Y

@@ -1,0 +1,428 @@
+@import url("../popreset.css");
+
+.popup-dom-lightbox-wrapper {
+	height: 100%;
+	min-height: 750px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-overlay {
+	background-image:url('images/bg-trans.png');
+	height: 100%;
+	min-height: 750px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main {
+	z-index: 1000;
+	width: 850px;
+	min-width: 850px;
+	font-family: sans-serif,Palatino,Palatino Linotype,Times,Times New Roman,serif;
+}
+
+.popup-dom-lightbox-wrapper .powered {
+	clear: both;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 0px;
+	display: block;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-top {
+	background-color: #3076d9;
+	height: 60px;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .main {
+	background-color: #ebebeb;
+	height: 500px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .main .left {
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .main .right {
+	float: right;
+	width: 55%;
+	margin: 20px 30px 0px 0px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .main .left img {
+	height: 100%;
+	width: 100%;
+}
+
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-bottom {
+	background-color: #616161;
+	height: 60px;
+	border-radius: 0 0 10px 10px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-close {
+	float: right;
+	background-image: url('images/lightbox-close.png');
+	background-image: url('../lightbox-close-ie.png')\0/ !important;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	margin-top: -12px;
+	margin-right: -12px;
+	height: 32px;
+	width: 30px;
+	background-size: 100%;
+	
+}
+
+.popup-dom-lightbox-wrapper .lightbox-close:hover {
+	background-position: left top;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-close span {
+	display: none;
+}
+
+.popup-dom-lightbox-wrapper .powered a {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px #000;
+	color: #fff;
+	font-size: 12px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+.popup-dom-lightbox-wrapper .powered a:hover {
+	text-decoration: underline;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .bullet-listx {
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	background-image: url('images/shadow-blue.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 20px 0;
+	padding: 20px 15px;
+	width: 430px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top ul.bullet-list {
+	float: left;
+	margin-left: 50%;
+	margin-right: -25%;
+	position: relative;
+	list-style: none;
+	color: #fff;
+	max-width: 300px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main ul.bullet-list li {
+	font-size: 16px;
+	font-family: sans-serif,Palatino,Palatino Linotype,Times,Times New Roman,serif;
+	font-weight: lighter;
+	background-image: url('images/bullet.png');	
+	background-position: 0px 50%;
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	line-height: 27px;
+	color: #8E8E8E;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top-content {
+	min-height: 60px;
+	padding-bottom: 20px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main div.heading {
+	font-family: sans-serif,Palatino,Palatino Linotype,Times,Times New Roman,serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+	width: 385px;
+	color: #050505;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+
+
+.popup-dom-lightbox-wrapper .lightbox-main div.sub-heading {
+	font-family: sans-serif,Palatino,Palatino Linotype,Times,Times New Roman,serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #528DD1;
+	margin-bottom: 5px;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main div.form-heading {
+	font-family: sans-serif,Palatino,Palatino Linotype,Times,Times New Roman,serif;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 25px;
+	color: #B2B2B2;
+	letter-spacing: 1px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom {
+	background-image: url('images/lightbox-bottom.png');
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	height: 257px;
+	border-top: 0px;
+}
+
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info {
+	height: 230px;
+	float: left;
+	margin-left: 180px;
+	margin-top: 60px;
+	width: 400px;
+}
+
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info h1 {
+	font-size: 24px;
+	line-height: 30px;
+	font-family: Georgia, Garamond, Times, serif;
+	color: #002753;
+	font-weight: normal;
+	letter-spacing: -1px;
+	text-shadow: 0px 1px 0px #fff;
+	margin-bottom: 45px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info .green-ticks {
+	list-style: none;
+	margin-top: 20px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info .green-ticks li {
+	background-image: url('images/green-tick.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: Georgia, Garamond, Times, serif;
+	color: #002753;
+	font-weight: normal;
+	letter-spacing: -1px;
+	text-shadow: 0px 1px 0px #fff;
+	background-position: left center;
+}
+
+
+.lightbox-clear {
+	clear: both;
+}
+.popup-dom-lightbox-wrapper .lightbox-main form {
+	display: inline;
+	float: left;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"] {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 49px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: none;
+	font-size: 27px;
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px #000;
+	letter-spacing: 2px;
+	line-height: 45px;
+	height: 60px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main #close-button {
+	color: #4d4d4d;
+	font-weight: lighter;
+	text-shadow: none;
+	background-position-y: 50%;
+	font-size: 18px;
+	letter-spacing: 0px;
+	margin-left: 10px;
+	float: right;
+	padding-right: 10px;
+
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .close-button a {
+	text-decoration: none;
+	
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .close-button {
+	background: url("images/buttons/close-button.png");
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 150px;
+	padding-top: 22px;
+	float: right;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"]:hover {
+	background-position: left center;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"]:active {
+	background-position: left bottom;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom .secure {
+	font-size: 18px;
+	font-weight: lighter;
+	background-image: url('images/lightbox-secure.png');
+	background-repeat: no-repeat;
+	background-position: left 80%;
+	padding-left: 22px;
+	padding-top: 20px;
+	margin-left: 15px;
+	line-height: 17px;
+	font-family: sans-serif,Palatino,Palatino Linotype,Times,Times New Roman,serif;
+	color: #8e8e8e;
+}
+
+
+.popup-dom-lightbox-wrapper .lightbox-top-content .title {
+	font-size: 19px;
+	line-height: 23px;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: #efefef;
+	font-weight: lighter;
+}
+
+
+.popup-dom-lightbox-wrapper .lightbox-signup-panel .form, .popup-dom-lightbox-wrapper .lightbox-signup-panel .form div {
+	float: left;
+}
+
+
+
+/* The Lightbox Designs
+=========================
+*/
+
+
+
+
+.popup-dom-lightbox-wrapper .lightbox-color-blue .lightbox-top {
+	background-image: url('images/headers/blue-header.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-dark-blue .lightbox-top {
+	background-image: url('images/headers/dark-blue-header.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-dark-green .lightbox-top {
+	background-image: url('images/headers/dark-green-header.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-dark-orange .lightbox-top {
+	background-image: url('images/headers/dark-orange-header.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-dark-red .lightbox-top {
+	background-image: url('images/headers/dark-red-header.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-grape .lightbox-top {
+	background-image: url('images/headers/grape-header.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-bright-green .lightbox-top {
+	background-image: url('images/headers/bright-green-header.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-orange .lightbox-top {
+	background-image: url('images/headers/orange-header.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-bright-red .lightbox-top {
+	background-image: url('images/headers/bright-red-header.png');
+}
+
+
+
+
+
+
+
+/* The Button Designs
+=======================
+*/
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"].blue-button {
+	background-image: url('images/buttons/blue-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"].dark-blue-button {
+	background-image: url('images/buttons/dark-blue-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"].green-button {
+	background-image: url('images/buttons/green-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"].dark-green-button {
+	background-image: url('images/buttons/dark-green-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"].orange-button {
+	background-image: url('images/buttons/orange-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"].dark-orange-button {
+	background-image: url('images/buttons/dark-orange-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"].red-button {
+	background-image: url('images/buttons/red-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"].dark-red-button {
+	background-image: url('images/buttons/dark-red-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"].turquoise-button {
+	background-image: url('images/buttons/turquoise-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main input[type="submit"]#close-button {
+	background-image: url('images/buttons/close-button.png');
+}

@@ -1,0 +1,8 @@
+Template Name: Social Network Template #1
+Colors: Blue[blue:#005ba2] | Green[green:#10a618] | Orange[orange:#d07400] | Red[red:#a30000] | Grape[grape:#930056] | Black[black:#393939] | Purple[bright-purple:#9f068b | Bright Blue[bright-blue:#0082e8] | Bright Green[bright-green:#00e80c] | Bright Orange[bright-orange:#c85400] | Bright Red[bright-red:#e00000]
+Preview Size: 580x300
+Preview Ext: jpg
+Fields: Title[id:title,max:43]|Form Header[id:form_header,max:50]|Short Paragraph[id:short_paragraph,type:textarea,max:280]|Footer Security Note[id:footer_note,max:64]|Name Default Value[id:name_default,default_val:Your First Name...]|Email Default Value[id:email_default,default_val:Your Email Address...]|Image[id:right_image,type:image,max_w:300,max_h:305]|Facebook App-id [id:fb-id]|Facebook App-Secret [id:fb-sec]|Facebook Button[id:facebook_button,max:22,default_val:Click to Sign Up]|Submit Button[id:submit_button,max:26,default_val:FREE INSTANT ACCESS]
+List Items: 5
+Button Colors: none
+Center: N

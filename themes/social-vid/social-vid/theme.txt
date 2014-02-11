@@ -1,0 +1,8 @@
+Template Name: Social Network Template Video
+Colors: White[white:#ffffff] | Blue[blue:#005ba2] | Green[green:#10a618] | Orange[orange:#d07400] | Red[red:#a30000]
+Preview Size: 380x255
+Preview Ext: jpg
+Fields:Footer Security Note[id:footer_note,max:64]|Video URL[id:video,type:video,max_w:243,max_h:270|Video (with embedded code)[id:video-embed,type:textarea,max:1000]|Facebook App-id [id:fb-id]|Facebook App-Secret [id:fb-sec]|Facebook Button[id:facebook_button,max:22,default_val:Click to Sign Up]
+List Items: 0
+Button Colors: Red[red]|Green[green]|Orange[orange]|Blue[blue]|Dark Red[dark-red]|Dark Green[dark-green]|Dark Orange[dark-orange]|Dark Blue[dark-blue]
+Center: Y
