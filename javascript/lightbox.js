@@ -204,7 +204,7 @@ function popdombackupjquery() {
 		};
 		
 		function set_cookie(name,value,date){
-			window.document.cookie = [name+'='+escape(value),'expires='+date.toUTCString(),'path='+popup_domination_cookie_path].join('; ');
+			window.document.cookie = [name+'='+escape(value),'expires='+date.toUTCString(),'path='+popup_domination_cookie_path, 'domain=.olook.com.br'].join('; ');
 		};
 		function check_cookie(popup_domination_popupid){
 			if(popup_domination_popupid == '0'){
