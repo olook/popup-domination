@@ -423,12 +423,12 @@ function popdombackupjquery() {
 						dothis: 'mailing',
 						email: email
 					};
-					
 					jQuery.post(popup_domination_url+"js.php", data, function(response) {
 						if(response.length > 4){
 							$('#popup_domination_lightbox_wrapper input[type="submit"]').removeAttr('disabled', 'disabled');
 							$('#popup_domination_lightbox_wrapper .form input').fadeIn();
 							$('#popup_domination_lightbox_wrapper .wait').fadeOut();
+							$('#popup_domination_lightbox_wrapper').fadeOut();
 						}else{
 							opt_in(popup_domination_popupid);
 							if(check_split_cookie() != true){
