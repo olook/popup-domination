@@ -4,7 +4,7 @@
 	<a href="#" class="lightbox-close" id="<?php echo $lightbox_close_id?>"><span>Close</span></a>
 		<div class="lightbox-top" 	<?php
 		if(isset($fields['right_image']) && !empty($fields['right_image'])){
-	 		echo  'style="background-image:url( '.$fields['right_image'].'); background-repeat:no-repeat; background-size: 92.2% 93%; margin-left: 30px;margin-top: 35px;"';
+	 		echo  'style="background-image:url( '.$fields['right_image'].'); background-repeat:no-repeat; margin-left: 30px;margin-top: 35px;"';
 	 	}
 		?>>
 			<div class="lightbox-top-content">
