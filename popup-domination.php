@@ -216,7 +216,7 @@ class PopUp_Domination {
 				$id = $in['id'];
 			}
 			$name = 'popup_domination_hide_lightbox'.$id;
-			setcookie($name,'',time()-60*60*24*100,"/");
+			setcookie($name,'',time()-60*60*24*100,"/",".olook.com.br");
 			echo '{"done":"done"}';
 		} else {
 			echo '{"error":"Verification failed, please refresh the page and try again."}';
