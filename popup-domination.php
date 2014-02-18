@@ -284,13 +284,13 @@ class PopUp_Domination {
 									$sizes = array($opts['max_w'],$opts['max_h']);
 							}
 							$image_url = $this->plugin_url.'uploads/'.$chk['filename'];
-							if(count($sizes) == 2){
-								$resized = $u->resize_image($this->plugin_path.'uploads/'.$chk['filename'],$sizes[0],$sizes[1]);
-								if($resized){
-									$image_url = $this->plugin_url.'uploads/'.$resized;
-									@unlink($this->plugin_path.'uploads/'.$chk['filename']);
-								}
-							}
+							// if(count($sizes) == 2){
+							// 	$resized = $u->resize_image($this->plugin_path.'uploads/'.$chk['filename'],$sizes[0],$sizes[1]);
+							// 	if($resized){
+							// 		$image_url = $this->plugin_url.'uploads/'.$resized;
+							// 		@unlink($this->plugin_path.'uploads/'.$chk['filename']);
+							// 	}
+							// }
 							echo $image_url.'|';
 							exit;
 						} else {
