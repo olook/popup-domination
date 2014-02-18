@@ -33,7 +33,7 @@
 	text-align: center;
 	margin-top: 0px;
 	padding: 0px;
-	display: block;
+	display: none !important;
 }
 
 .popup-dom-lightbox-wrapper .powered a {
