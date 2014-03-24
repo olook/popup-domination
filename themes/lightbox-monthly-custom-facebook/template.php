@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<?php if($provider != 'form' && $provider != 'nm'): ?>
-		<div class="lightbox-middle-bar">
+		<!--div class="lightbox-middle-bar">
 			<div class="lightbox-signup-panel">
            	<div class="wait" style="display:none;"><img src="<?php echo $this->plugin_url.'css/images/wait.gif'; ?>" /></div>
 	            <div class="form">
@@ -25,9 +25,9 @@
                 </div>
             </div>
             </div>
-		</div>
+		</div-->
 		<?php else: ?>
-		<div class="lightbox-middle-bar">
+		<!--div class="lightbox-middle-bar">
 			<div class="lightbox-signup-panel">
             <form method="post" action="<?php echo $form_action ?>"<?php echo $target ?>>
                 <div>
@@ -36,8 +36,9 @@
                 </div>
             </form>
             </div>
-		</div>
+		</div-->
 		<?php endif; ?>
+    <fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>
 		<div class="lightbox-bottom">
 			<p class="secure"><?php echo $fields['footer_note'] ?></p>
 		</div>
