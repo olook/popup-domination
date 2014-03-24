@@ -44,6 +44,13 @@
 				}
 			}
 		}
+
+		$('.fb-login-button').click(function(){
+			close_box(popup_domination_popupid);
+			console.log("dialog closed");
+			return false;
+		});		
+
 		$('#popup_domination_lightbox_close').click(function(){
 			close_box();
 			return false;

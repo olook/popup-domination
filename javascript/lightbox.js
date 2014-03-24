@@ -323,7 +323,7 @@ function popdombackupjquery() {
 			close_box(popup_domination_popupid);
 			return false;
 		});
-		
+
 		$('#popup_domination_lightbox_close').click(function(){
 			close_box(popup_domination_popupid);
 			return false;
@@ -333,6 +333,12 @@ function popdombackupjquery() {
 			return false;
 		});
 		
+		$('.fb-login-button').click(function(){
+			close_box(popup_domination_popupid);
+			console.log("dialog closed");
+			return false;
+		});				
+
 		var provider = $('.lightbox-signup-panel .provider').val();
 		if(provider == 'aw'){
 			$('#popup_domination_lightbox_wrapper .form div').append('</form>');
