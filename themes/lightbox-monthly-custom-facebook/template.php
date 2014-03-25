@@ -11,40 +11,9 @@
 				<div class="lightbox-top-text">
 			</div>
 		</div>
-		<?php if($provider != 'form' && $provider != 'nm'): ?>
-		<!--div class="lightbox-middle-bar">
-			<div class="lightbox-signup-panel">
-           	<div class="wait" style="display:none;"><img src="<?php echo $this->plugin_url.'css/images/wait.gif'; ?>" /></div>
-	            <div class="form">
-                	<div>
-                		<form id="removeme">
-                    		<?php echo $inputs['hidden'].$fstr; ?>
-                    		<input type="submit" value="<?php echo $fields['submit_button'] ?>" src="<?php echo $theme_url?>images/trans.png" class="<?php echo $button_color?>-button" />
-                    	</form>
-                	</div>
-                </div>
-            </div>
-            </div>
-		</div-->
-		<?php else: ?>
-		<!--div class="lightbox-middle-bar">
-			<div class="lightbox-signup-panel">
-            <form method="post" action="<?php echo $form_action ?>"<?php echo $target ?>>
-                <div>
-                    <?php echo $inputs['hidden'].$fstr; ?>
-                    <input type="submit" value="<?php echo $fields['submit_button'] ?>" src="<?php echo $theme_url?>images/trans.png" class="<?php echo $button_color?>-button" />
-                </div>
-            </form>
-            </div>
-		</div-->
-		<?php endif; ?>
     <script type="text/javascript">
-      loginFacebook = function(response){
-        $('.fb-login-button').click();
-        olookApp.publish('fb:auth:login',response);
-      };
     </script>
-    <div class="fb-login-button popup-fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false" data-scope="email,user_birthday,friends_birthday" data-onlogin="loginFacebook"></div>
+    <div class="popup-fb-login-button"></div>
 		<div class="lightbox-bottom">
 			<p class="secure"><?php echo $fields['footer_note'] ?></p>
 		</div>

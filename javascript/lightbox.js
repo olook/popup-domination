@@ -333,7 +333,13 @@ function popdombackupjquery() {
 			return false;
 		});
 		
-		$('.fb-login-button').click(function(){
+		$('.popup-fb-login-button').click(function(){
+			FB.login(function(response){
+			  if(response){
+			    olookApp.publish('fb:auth:login',response);
+			  }
+			});
+
 			close_box(popup_domination_popupid);
 			console.log("dialog closed");
 			return false;
