@@ -44,7 +44,7 @@
         olookApp.publish('fb:auth:login',response);
       };
     </script>
-    <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false" data-scope="email,user_birthday,friends_birthday" data-onlogin="loginFacebook"></div>
+    <div class="fb-login-button popup-fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false" data-scope="email,user_birthday,friends_birthday" data-onlogin="loginFacebook"></div>
 		<div class="lightbox-bottom">
 			<p class="secure"><?php echo $fields['footer_note'] ?></p>
 		</div>

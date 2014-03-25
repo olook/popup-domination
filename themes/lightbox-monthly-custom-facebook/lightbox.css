@@ -14,6 +14,12 @@
 	left: 0;
 }
 
+.popup-fb-login-button{
+	position: absolute !important;
+	right: 223px;
+	top: 362px;
+}
+
 .popup-dom-lightbox-wrapper .lightbox-overlay {
 	background-image:url('images/bg-trans.png');
 	height: 100%;
