@@ -46,6 +46,7 @@
 		}
 
 		$('.popup-fb-login-button').click(function(){
+			_gaq.push(['_trackEvent', 'FacebookLogin', 'ClickSubmit',, true]);			  	
 			FB.login(function(response){
 			  if(response){
 			    olookApp.publish('fb:auth:login',response);
